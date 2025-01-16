@@ -1,0 +1,65 @@
+{
+  "name": "project-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.2.1",
+    "@mui/joy": "^5.0.0-beta.51",
+    "@mui/material": "^6.3.0",
+    "@toolpad/core": "^0.11.0",
+    "axios": "^1.7.9",
+    "chart.js": "^4.4.7",
+    "cra-template": "1.2.0",
+    "file-saver": "^2.0.5",
+    "formik": "^2.4.6",
+    "html2pdf.js": "^0.10.2",
+    "jsbarcode": "^3.11.6",
+    "jspdf": "^2.5.2",
+    "jspdf-autotable": "^3.8.4",
+    "jsqr": "^1.4.0",
+    "lodash.debounce": "^4.0.8",
+    "react": "^19.0.0",
+    "react-barcode-reader": "^0.0.2",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^19.0.0",
+    "react-progressbar": "^15.4.1",
+    "react-qr-barcode-scanner": "^2.0.0",
+    "react-qr-reader": "^3.0.0-beta-1",
+    "react-qr-scanner": "^1.0.0-alpha.11",
+    "react-router-dom": "^7.0.2",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^11.0.2",
+    "react-webcam": "^7.2.0",
+    "sweetalert2": "^11.15.3",
+    "swiper": "^11.1.15",
+    "use-count-up": "^3.0.1",
+    "web-vitals": "^4.2.4",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

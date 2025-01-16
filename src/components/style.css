@@ -1,0 +1,22 @@
+/* swiperStyles.css */
+
+/* Swiper container */
+.swiper-container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  /* Swiper slide */
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  /* Optional: Add custom styles for your swiper components */
+  .swiper-button-next, .swiper-button-prev {
+    color: #fff; /* Adjust button color */
+  }
+  
