@@ -35,7 +35,7 @@ import AssessmentIcon from '@mui/icons-material/Assessment';
 
 const NAVIGATION = [
   {
-    segment: "admin/dashboard",
+    segment: "dashboard",
     title: "Dashboard",
     icon: <DashboardIcon />,
     roles: ["ADMIN"],

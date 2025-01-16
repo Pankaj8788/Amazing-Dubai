@@ -282,7 +282,7 @@ function AppContent() {
                 element={<ProtectedRoute element={<BarcodeScanner />} />}
               />
               <Route
-                path="admin/dashboard"
+                path="/dashboard"
                 element={<ProtectedRoute element={<Dashboard />} />}
               />
               <Route
