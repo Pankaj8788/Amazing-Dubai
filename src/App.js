@@ -210,6 +210,7 @@ import BarcodeScanner from "./components/PassEvent/BarcodeScanner";
 // import CustomCursor from "./components/Website/CustomCursor";
 import InactivityHandler from "./components/Setting/InactivityHandler";
 import DeletedUser from "./components/Admin/DeletedUser";
+import GiftCard from "./components/Setting/GiftCard";
 
 // Simulate authentication check
 const isAuthenticated = () => {
@@ -288,6 +289,10 @@ function AppContent() {
               <Route
                 path="/leaderboard"
                 element={<ProtectedRoute element={<LeaderBoard />} />}
+              />
+              <Route
+                path="/giftcard"
+                element={<ProtectedRoute element={<GiftCard />} />}
               />
               <Route
                 path="/admin/userslist"

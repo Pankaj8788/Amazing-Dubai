@@ -6,6 +6,7 @@ import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import CurrencyExchangeIcon from '@mui/icons-material/CurrencyExchange';
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+import CardGiftcardIcon from '@mui/icons-material/CardGiftcard';
 // import TrackChangesIcon from '@mui/icons-material/TrackChanges';
 import {
   Drawer,
@@ -51,6 +52,12 @@ const NAVIGATION = [
     title: "Leaderboard",
     icon: <LeaderboardIcon />,
     roles: ["USER", "ADMIN"],
+  },
+  {
+    segment: "giftcard",
+    title: "Gift Card",
+    icon: <CardGiftcardIcon />,
+    roles: ["ADMIN"],
   },
   {
     segment: "rewards",
