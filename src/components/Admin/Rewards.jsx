@@ -78,28 +78,28 @@ const Rewards = () => {
     {
       title: "Contest Winning Schemes",
       description:
-        "Complete your target and stand a chance to win exciting flight tickets and awesome gifts! Participate and win big rewards.",
+      "Complete your target and stand a chance to win exciting flight tickets and awesome gifts! Participate and win big rewards.",
       image: Img_1,
       gif: offer_one,
     },
     {
       title: "Offers and Rewards",
       description:
-        "Unlock exclusive offers and redeem rewards points for great deals. Coins rate: ₹21/coin for 2024/2025. ₹153/coin for 2027/2028.",
+      "Unlock exclusive offers and redeem rewards points for great deals. Coins rate: 21 INR for 2024/2025. After 3 years, 153 INR for 2027/2028.",
       image: Img_2,
       gif: offer_two,
     },
     {
       title: "Coins Growth Plan",
       description:
-        "Invest in our coin plans and see your investments grow. ₹2 Lakh investment gets 1 silver coin (25gm). ₹10 Lakh gets 5 silver coins (25gm).",
+      "Invest in our coin plans and see your investments grow. If you invest 3 lakh, you will get 1 silver coin (20gm). Invest 15 lakh, and you will get 5 silver coins (20gm),Invest in multiples of 3X to earn Silver Coin",
       image: Img_3,
       gif: offer_one,
     },
     {
       title: "Special Pre-Launch Offers",
       description:
-        "Invest in our pre-launch offers and get exceptional returns. 10% growth for 1-10 lakh, 20% growth for 11-20 lakh, 25% growth above ₹21 lakh.",
+      "Invest in our pre-launch offers and get exceptional returns. 6% growth for 1-10 lakh, 8% growth for 11-20 lakh, and 10% growth for investments above 21 lakh.",
       image: Img_4,
       gif: offer_two,
     },

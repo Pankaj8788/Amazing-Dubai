@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import AboutUs from "./Aboutus";
 import Services from "./Services";
 import HeroSection from "./Home";
+import PrelaunchEventTime1 from "./PrelaunchEventTime";
 import PrelaunchEventTime from "./PrelaunchEventTime";
 
 const LandingPage = () => {

@@ -96,7 +96,10 @@ const Home = () => {
       ))}
 
       <ContentWrapper>
-        <StyledImage src={CoinLogo} alt="Coin Logo" />
+        <StyledImage src={CoinLogo} alt="Coin Logo"/>
+        <Typography variant="h4" sx={{ mb: 4,fontFamily:'cursive',color:'#FFD700' }}>
+        Crypto for Everyone, Everywhere!
+        </Typography>
         <Typography variant="h2" sx={{ mb: 2, fontWeight: "bold", fontSize: { xs: "2rem", sm: "3rem" } }}>
           Unlock Opportunities
         </Typography>

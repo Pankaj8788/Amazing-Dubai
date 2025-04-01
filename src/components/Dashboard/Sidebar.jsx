@@ -53,12 +53,21 @@ const NAVIGATION = [
     icon: <LeaderboardIcon />,
     roles: ["USER", "ADMIN"],
   },
+  
   {
-    segment: "giftcard",
-    title: "Gift Card",
-    icon: <CardGiftcardIcon />,
-    roles: ["ADMIN"],
+    segment:"",
+    title:"Gift Card Section",
+    icon:<CardGiftcardIcon/>,
+    roles:["ADMIN"],
+    children:[
+      {segment:"giftcard",title:"Add GIFT CARD"},
+      {segment:"giftcardtwo",title:"List GIFT CARD"},
+      {segment:"giftcardlist",title:"Gift Card List"},
+      {segment:"giftcard-reedim",title:"Gift Card Redeemed"},
+
+    ]
   },
+  
   {
     segment: "rewards",
     title: "Rewards",
@@ -112,6 +121,12 @@ const NAVIGATION = [
     roles: ["ADMIN"],
   },
   {
+    segment: "testingc",
+    title: "testing",
+    icon: <CurrencyExchangeIcon />,
+    roles: ["USER"],
+  },
+  {
     segment: "logout",
     title: "Logout",
     icon: <LogoutIcon />,
@@ -146,7 +161,7 @@ function Sidebar() {
 
   const handleNavigation = (segment) => {
     if (segment === "logout") {
-      handleLogout(); // Call logout function
+      handleLogout(); 
     } else if (segment === "dashboard" && role === "USER") {
       navigate("/userdashboard"); // Redirect USER to userdashboard
     } else if (segment === "userdashboard" && role === "ADMIN") {

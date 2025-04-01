@@ -210,7 +210,11 @@ import BarcodeScanner from "./components/PassEvent/BarcodeScanner";
 // import CustomCursor from "./components/Website/CustomCursor";
 import InactivityHandler from "./components/Setting/InactivityHandler";
 import DeletedUser from "./components/Admin/DeletedUser";
-import GiftCard from "./components/Setting/GiftCard";
+import GiftCard from "./components/Setting/GiftCardGC";
+import GiftCard2 from "./components/Setting/GiftCard2";
+import Testing from "./components/Testing/Testing";
+import GiftcardList from "./components/Setting/GiftcardList";
+import ReedeemGiftcard from "./components/Admin/ReedeemGiftcard";
 
 // Simulate authentication check
 const isAuthenticated = () => {
@@ -291,8 +295,24 @@ function AppContent() {
                 element={<ProtectedRoute element={<LeaderBoard />} />}
               />
               <Route
+                path="/testingc"
+                element={<ProtectedRoute element={<Testing />} />}
+              />
+              <Route
                 path="/giftcard"
                 element={<ProtectedRoute element={<GiftCard />} />}
+              />
+              <Route
+                path="/giftcardtwo"
+                element={<ProtectedRoute element={<GiftCard2 />} />}
+              />
+              <Route
+              path="/giftcardlist"
+              element={<ProtectedRoute element={<GiftcardList />} />}
+              />
+              <Route
+                path="/giftcard-reedim"
+                element={<ProtectedRoute element={<ReedeemGiftcard />} />}
               />
               <Route
                 path="/admin/userslist"
