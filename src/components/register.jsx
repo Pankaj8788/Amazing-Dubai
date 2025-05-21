@@ -257,7 +257,6 @@ import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import Swal from "sweetalert2";
 import axios from "axios";
-import WecanLogo from '../Assets/wecanimg/Wecanlogo.jpeg'
 
 const UserRegister = () => {
   const [formData, setFormData] = React.useState({
@@ -454,7 +453,7 @@ const UserRegister = () => {
             >
               <Box
                 component="img"
-                src={WecanLogo}
+                src="/api/placeholder/120/120"
                 alt="We Can Logo"
                 sx={{
                   width: "100%",
@@ -627,7 +626,7 @@ const UserRegister = () => {
               >
                 <MenuItem value="Student">Student</MenuItem>
                 <MenuItem value="Business">Business</MenuItem>
-                <MenuItem value="Business">Other</MenuItem>
+                <MenuItem value="Other">Other</MenuItem>
               </TextField>
             </Grid>
 
